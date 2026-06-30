@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0289/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0289/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清六甲祈禱祕法
+  date: '2015-08-29 00:15:46.018849'
+  source:
+    repository: kanripo
+    path: KR5b0289
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0289_000-ZTDZ.yaml, hash: 'sha256:e9c0287348c77cb36057a44fc581fedadcc669a996a7d13483de196587bc3b56'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0289_000-ZTDZ.markers.yaml, hash: 'sha256:d84a50322488c64ee73a1b27bcf07bd5e03aa6878ba9c5a6cb188fee474d4d6d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0289_SJB_000-100760b
+    span:
+    - body
+    - 0
+    - 2289
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:a728dde440dfcb3ed91af19932be6098ebd5686d37a8ae6df7ebf04c13df225f
